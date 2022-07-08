@@ -1,0 +1,138 @@
+#card {
+    background-color: var(--background-floating);
+    border-radius: 6px;
+    min-width: 400px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2)
+}
+
+#banner {
+    height: 120px;
+    width: 100%;
+    background-color: #141414;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+#user-info {
+    position: relative;
+    padding: 56px 16px 16px
+}
+
+#avatar {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    box-shadow: 0 0 0 8px var(--background-floating);
+    border-radius: 50%;
+    top: 0;
+    transform: translateY(-50%)
+}
+
+#avatar>img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%
+}
+
+#status {
+    position: absolute;
+    top: 91%;
+    right: -8px;
+    transform: translate(-50%, -50%);
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background-color: #fff;
+    cursor: pointer;
+    border: 4px solid var(--background-floating)
+}
+
+#badges {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    max-width: 300px;
+    width: 50%
+}
+
+.badge {
+    cursor: pointer;
+    margin: 2px 4px 0 0
+}
+
+.badge>img {
+    height: 20px
+}
+
+#username {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif
+}
+
+#username>span {
+    font-family: Montserrat, sans-serif;
+    color: var(--text-muted)
+}
+
+hr {
+    width: calc(100% - 32px);
+    height: 1px;
+    margin: 0 auto;
+    border: none;
+    outline: 0;
+    background-color: var(--background-secondary)
+}
+
+#about {
+    padding: 16px
+}
+
+#about>h4 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 6px
+}
+
+#about>p {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px
+}
+
+#social {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 6px 12px 16px;
+    margin-top: 12px
+}
+
+.social-link {
+    margin: 2px 6px 0 0;
+    transition: transform .3s
+}
+
+.social-link>img {
+    color: #fff;
+    width: 22px;
+    height: 22px
+}
+
+.social-link:hover {
+    transform: scale(1.05)
+}
+
+@media (max-width:512px) {
+    #card {
+        min-width: 100%;
+        border-radius: 0
+    }
+}
