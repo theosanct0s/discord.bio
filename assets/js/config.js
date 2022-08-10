@@ -4,7 +4,7 @@ const BADGES = [
     image: "assets/badges/hypesquad_bravery.svg",
   },
   {
-    name: "Subscriber since Jun 29, 2022",
+    name: "Subscriber since Jun 29, 2022", // Message that will appear when hovering over the badge
     image: "assets/badges/nitro.svg",
   },
   {
