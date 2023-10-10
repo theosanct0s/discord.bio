@@ -37,7 +37,7 @@ const USER_ID = "YOUR DISCORD ID HERE";
 const BACKGROUND_IMAGE = "assets/images/";
 ```
 
-> For all of this to work, you need to be on the official Lanyard server. [Click here](https://discord.gg/lanyard) to enter.
+> For all of this to work, you need to be on the official Lanyard server, [click here](https://discord.gg/lanyard) to enter.
 
 Remembering that you can use and abuse this site as you want, I'm posting it here especially for people who want a template like this, or people who don't know how to program and want to start somewhere. So, enjoy! 🥰
 
